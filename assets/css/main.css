@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    /* Set the background color you want */
+    background-color: #171616;
+    /* Ensure the background covers the whole viewport, including overscroll area */
+    min-height: 100vh;
+}

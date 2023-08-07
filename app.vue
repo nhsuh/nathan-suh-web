@@ -1,10 +1,5 @@
 <template>
-  <NuxtLayout>
-    <div>
-      <NuxtLoadingIndicator />
-      <span>Personal website placeholder</span>
-    </div>
-  </NuxtLayout>
+  <landing></landing>
 </template>
 <script setup lang="ts">
 </script>
