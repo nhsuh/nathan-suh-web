@@ -19,7 +19,7 @@ module.exports = {
       pinky: "#ea2b99",
       "pinky-two": "#f199c8",
       fern: "#04643c",
-      grey: "#f5f4ff",
+      grey: "#c5c5d9",
     },
     extend: {
       fontFamily: {
