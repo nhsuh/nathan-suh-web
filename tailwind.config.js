@@ -14,9 +14,10 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'dark': '#171616',
-      'gren': '#09d084',
-      'chalk': '#f5f3f4',
-      'pinky': '#b62076',
+      'gren': '#09d0c9',
+      'chalk': '#423939',
+      'pinky': '#ea2b99',
+      'pinky-two': '#f199c8',
       'fern': '#04643c'
     },
     extend: {
@@ -24,6 +25,21 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
+    animation: {
+      fadeIn: "fadeIn 1s ease-in forwards",
+      elongate: "elongate 1s ease-in",
+      backgroundIn: "backgroundIn 1s ease-in"
+    },
+    keyframes: {
+      fadeIn: {
+        "0%": { opacity: 0 },
+        "100%": { opacity: 1 }
+      },
+      elongate: {
+        "0%": { width: 0, opacity: 0 },
+        "100%": { width: "33.33333%", opacity: 1 }
+      },
+    }
   },
   plugins: [],
 }

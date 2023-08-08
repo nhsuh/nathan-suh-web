@@ -3,7 +3,10 @@
 </script>
 
 <template>
-<start></start>
+  <div class="snap-y snap-mandatory">
+    <start></start>
+    <links class="snap-always snap-center"></links>
+  </div>
 </template>
 
 <style scoped>
