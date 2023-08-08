@@ -1,5 +1,4 @@
 <template>
   <landing></landing>
 </template>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>

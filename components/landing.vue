@@ -1,14 +1,9 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="snap-y snap-mandatory">
+  <div class>
     <start></start>
-    <links class="snap-always snap-center"></links>
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
