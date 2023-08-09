@@ -49,12 +49,19 @@ const scrollToElement = (where: string) => {
       id="pandh"
     >
       <experiences></experiences>
-      <div class="text-pinky">hello</div>
-      <div class="text-pinky">hello</div>
-      <div class="text-pinky">hello</div>
-      <div class="text-pinky">hello</div>
-      <div>hello</div>
-      <div>hello</div>
+      <div
+        class="w-[800px] bg-gradient-to-tr from-fern to-gren rounded-lg text-center flex flex-col justify-center"
+      >
+        <div class="text-7xl font-bold">Coming Soon</div>
+        <div class="pt-3">
+          <div>More experiences</div>
+          <div>Personal Projects</div>
+          <div>Hobbies</div>
+          <div>Mobile Support</div>
+          <div>About Me</div>
+          <div>Dark Mode-Light Mode Toggle</div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
