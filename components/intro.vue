@@ -3,7 +3,7 @@
 <template>
   <div class="flex flex-col items-center justify-center absolute">
     <span
-      class="text-gren text-6xl sm:text-8xl font-semibold animate-fadeIn center"
+      class="text-grey text-6xl sm:text-8xl font-semibold animate-fadeIn center"
       >Nathan Suh</span
     >
     <v-divider
@@ -11,7 +11,7 @@
       class="invisible md:visible md:animate-elongate md:w-1/3 md:h-1 md:bg-gren md:border-0 md:rounded md:my-10"
     ></v-divider>
     <span
-      class="text-gren pt-5 sm:pt-0 text-center text-xl sm:text-4xl animate-fadeIn"
+      class="text-grey pt-5 sm:pt-0 text-center text-xl sm:text-4xl animate-fadeIn"
       >Software engineer, researcher, seeking challenges and learning
       opportunities</span
     >

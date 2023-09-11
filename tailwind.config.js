@@ -14,7 +14,7 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       dark: "#171616",
-      gren: "#09d0c9",
+      gren: "#d0d2d0",
       chalk: "#423939",
       pinky: "#ea2b99",
       "pinky-two": "#f199c8",
